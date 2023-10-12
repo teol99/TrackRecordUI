@@ -1,11 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { useState, useEffect } from "react";
 
-interface Props {
-  content: string
-}
-
-const ButtonText = ({ content }: Props) => {
+const ButtonText = ({ content }) => {
   return (
     <Text style={styles.buttonText}>
       {content}
